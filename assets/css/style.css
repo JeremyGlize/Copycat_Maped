@@ -70,6 +70,12 @@ h1 {
 }
 
 /* BACKGROUND SECTION */
+.black_section {
+  background: #0c0422;
+  margin: 0 auto;
+  padding: 0 32px;
+  height: 80vh;
+}
 
 .first_section {
   padding: 85px 0 80px;
@@ -88,6 +94,31 @@ h1 {
 .second_section h1 {
   color: #7140af;
 }
+
+/****** Black section ******/
+.black_section h1,
+h3 {
+  text-align: left;
+  color: white;
+  font-family: "Daft-Brush";
+}
+.black_section h3 {
+  font-size: 40px;
+}
+.black_section p {
+  color: grey;
+}
+
+.container_black img {
+  border-radius: 50%;
+  height: 570px;
+}
+.container_black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /****** Cards container ******/
 
 .container_card {
@@ -141,13 +172,15 @@ h1 {
 
 .discover_card {
   background-color: white;
-  width: 20%;
+  width: 25%;
   border-radius: 25px;
   text-align: center;
   cursor: pointer;
 }
 
 .discover_card img {
+  object-fit: cover;
+  width: 100%;
   border-radius: 25px 25px 0 0;
 }
 
