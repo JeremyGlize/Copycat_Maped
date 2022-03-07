@@ -1,8 +1,87 @@
 h1{
     text-align: center;
-    color: black;
+    color: rgb(219, 52, 163);
+    
 }
-body{
-    background-color: rgb(191, 238, 130);
+.section {
+    display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;  
+  font-size: 16px;
+  padding: 30px 0;
+}
+.last1_section {
+    padding: 85px 0 80px;
+    background: rgb(196, 218, 167);
+}
+.last2_section {
+    padding: 85px 0 80px;
+    background-color: rgb(219, 200, 218);
+}
 
+.maped_card {
+    background-color: white;
+    width: 20%;
+    border-radius: 25px;
+    padding: 25px 60px;
+    text-align: center;
+    cursor: pointer;
+  }
+.container_card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+h2{
+    text-align: center;
+    color: rgb(47, 97, 190);
 }
+.section{
+    display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-size: 16px;
+  padding: 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.actualité{
+    background-color: rgb(219, 200, 218);
+}
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+h3{
+      color: red;
+      text-align: center;
+
+  }
+  
+p {
+  font-family: "Ample-soft";
+  font-size: 24px;
+  margin: 0 0 8px;
+  color: black;
+}
+.title_card {
+    padding: 20px 22px 32px;
+  }
+  .discover_card {
+    background-color: white;
+    width: 20%;
+    border-radius: 25px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .discover_card img {
+    border-radius: 25px 25px 0 0;
+  }
+  
+  .discover_card p {
+    text-transform: uppercase;
+    color: black;
+    font-size: 14px;
+  }
