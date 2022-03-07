@@ -1,0 +1,115 @@
+@import url("reset.css");
+@font-face {
+  font-family: "Daft-Brush";
+  src: url("../fonts/Daft-Brush.otf");
+}
+@font-face {
+  font-family: "Ample-soft";
+  src: url("../fonts/FontsFree-Net-AmpleSoftPro.ttf");
+}
+
+h1 {
+  font-size: 78px;
+  margin-bottom: 48px;
+  text-align: center;
+  font-family: "Daft-Brush";
+}
+
+/* BACKGROUND SECTION */
+
+.first_section {
+  padding: 85px 0 80px;
+  background: #f9dc80;
+}
+
+.first_section h1 {
+  color: #009fe3;
+}
+
+.second_section {
+  padding: 85px 0 80px;
+  background: #f1d4bc;
+}
+
+.second_section h1 {
+  color: #7140af;
+}
+/****** Cards container ******/
+
+.container_card {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+/****** Card first section *******/
+
+.maped_card {
+  background-color: white;
+  width: 20%;
+  border-radius: 25px;
+  padding: 25px 60px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.maped_card h3 {
+  font-family: "Ample-soft", serif;
+  text-transform: uppercase;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+
+.maped_card p {
+  font-family: "Ample-soft";
+  color: red;
+  margin: 20px 0;
+}
+
+.maped_card img {
+  object-fit: cover;
+  height: 300px;
+}
+
+.maped_card button {
+  font-family: "Ample-soft";
+  background: red;
+  border-radius: 50px;
+  color: white;
+  padding: 20px;
+  border: none;
+  font-size: 16px;
+}
+
+/****** Discover card *******/
+
+.discover_card {
+  background-color: white;
+  width: 20%;
+  border-radius: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.discover_card img {
+  border-radius: 25px 25px 0 0;
+}
+
+.discover_card p {
+  text-transform: uppercase;
+  color: red;
+  font-size: 14px;
+}
+
+h6,
+p {
+  font-family: "Ample-soft";
+  font-size: 24px;
+  margin: 0 0 8px;
+}
+
+.title_card {
+  padding: 20px 22px 32px;
+}
