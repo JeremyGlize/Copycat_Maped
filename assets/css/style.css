@@ -7,60 +7,61 @@
   font-family: "Ample-soft";
   src: url("../fonts/FontsFree-Net-AmpleSoftPro.ttf");
 }
-header{
-    background-color: white;
-    /* Pour le border raidus mais que en bas*/
-    border-bottom-left-radius: 40px;
-    border-bottom-right-radius: 40px;
-    color: #ff0000;
-    padding: 15px;
+header {
+  background-color: white;
+  /* Pour le border raidus mais que en bas*/
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  color: #ff0000;
+  padding: 15px;
 }
 .navHeader {
-    display: flex;
-    align-items: center;
-    font-size: 20px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  justify-content: center;
 }
-#liHeader{
-   width: 40%;
+#liHeader {
+  width: 40%;
 }
 /* Pour retiré les boutons */
-#liHeader ul{
-    list-style: none;
- }
+#liHeader ul {
+  list-style: none;
+}
 /* Pour crée des boutons en couleur gris peut opaque */
-#liHeader ul li::before{
-    color: gray;
-    opacity: 0.3;
-    content: "\2022";
-    font-weight: bold;
-    display: inline-block; 
-    width: 1em;
-    margin-left: -1em;    
+#liHeader ul li::before {
+  color: gray;
+  opacity: 0.3;
+  content: "\2022";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
-.navHeader ul{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    font-size: 25px;
-    list-style-type: circle;
-    font-weight: 500;
+.navHeader ul {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  font-size: 25px;
+  list-style-type: circle;
+  font-weight: 500;
 }
-.ImgGaucheHeaer{
-    margin-left: 5%;
-    margin-right: -35%;
+.ImgGaucheHeaer {
+  margin-left: 5%;
+  margin-right: -35%;
 }
-.HeaderSlogant{
-    width: 25%;
-    height: 25%;
+.HeaderSlogant {
+  width: 25%;
+  height: 25%;
 }
-.HeaderLogo{
-    width: 13%;
+.HeaderLogo {
+  width: 13%;
 }
-.ButtonRight{
-    width: 20%;
+.ButtonRight {
+  width: 20%;
 }
+
 h1 {
   font-size: 78px;
   margin-bottom: 48px;
